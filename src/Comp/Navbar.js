@@ -20,7 +20,7 @@ export default function Navbar() {
         <div className="container">
           <div className="d-flex justify-content-between">
             <div className="logo col-lg-3 d-flex gap-4">
-              <Link to='/'> <img src={Logo} className='logo' alt="logo" /></Link>
+              <Link to='/Ecommerce-website'> <img src={Logo} className='logo' alt="logo" /></Link>
            
             </div>
             <div className="col-lg-6 ps-5 d-none d-lg-block ">
@@ -40,7 +40,7 @@ export default function Navbar() {
         </div>
       </section>
       <Routes>
-                <Route path="/" element={<Home />} />
+                <Route path="/Ecommerce-website" element={<Home />} />
                 <Route path="/coupons" element={<Coupons />} />
                 <Route path="/refer" element={<Refer />} />
                 <Route path="/flash-deals" element={<Flash />} />
