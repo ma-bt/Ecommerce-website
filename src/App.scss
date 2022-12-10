@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap');
+$color: #FDC00F;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.colo {
+  background: $color;
+}
+
+.logo {
+  width: 220px;
+  height: 40px;
+
+}
+
+.header {
+  background: $color;
+  margin: 0;
+}
+
+.nav {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  background-color: #ffffff;
+  margin: 0;
+
+  .bt-1 {
+    background: $color;
+    border: 1px solid $color;
+  }
+
+  .hov:hover {
+    color: $color;
+  }
+}
+
+.mega {
+  width: 100% !important;
+  padding: 25px 0 25px 0 !important;
+}
+
+/* Login */
+.login {
+  margin-top: 38px;
+
+}
+
+.back {
+  background-color: $color;
+  position: relative;
+  border-radius: 10px;
+}
+
+.front {
+  background-color: #ffffff;
+
+  border-radius: 10px;
+
+  img {
+    width: 100px;
+    transition: transform .2s;
+    padding-bottom: 5px;
+
+    &:hover {
+      transform: scale(1.1);
+      overflow: hidden;
+    }
+
+  }
+
+}
+
+.im {
+
+  img {
+    width: 100px;
+    transition: transform .2s;
+    padding: 0;
+    ;
+
+    &:hover {
+      transform: scale(1.1);
+      overflow: hidden;
+    }
+  }
+
+}
+
+// Flash 
+.flash {
+  .m-box {
+    margin-top: 30px;
+  }
+
+  img {
+    width: 165px;
+    height: 140px;
+    margin: auto;
+    padding-top: 10px;
+    transition: transform .2s;
+
+    &:hover {
+      transform: scale(1.1);
+      overflow: hidden;
+    }
+  }
+
+  p {
+    padding-top: 10px !important;
+  }
+}
+
+.box {
+  height: 350px;
+  width: 200px;
+  padding-top: 15px;
+  margin: auto;
+  transition: transform .1s;
+
+  &:hover {
+
+    transform: scale(1.1);
+    overflow: hidden;
+  }
+}
+
+.rate {
+  background-color: rgb(255, 1, 1);
+  color: #ffffff;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin-left: 61%;
+   
+
+}
+
+// WeeKly
+.week {
+
+  .box1 {
+    height: 330px;
+    width: 180px;
+    padding-top: 15px;
+    margin: auto;
+    transition: transform .1s;
+
+    &:hover {
+
+      transform: scale(1.1);
+      overflow: hidden;
+    }
+
+  }
+
+  button {
+    background-color: #FDC00F;
+    color: black;
+    border-radius: 10px;
+
+  }
+
+}
+
+// For Pic HOVer
+.em {
+
+  img {
+    width: 120px;
+    height: 160px;
+    margin: auto;
+    transition: transform .2s;
+    padding-top: 10px;
+    padding-bottom:18px ;
+    
+
+
+    &:hover {
+      transform: scale(1.1);
+      overflow: hidden;
+
+    }
+  }
+
+}
+
+//Coupons-Zone
+.coupon {
+  background-color: $color;
+
+  button {
+    background-color: #eab000;
+    color: black;
+    border: 1px solid rgba(184, 184, 184, 0.8);
+
+  }
+}
+
+// TREND-BOX
+.trend{
+  width: 630px;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+//single-page
+.single {
+  background-color: rgba(238, 237, 237, 0.8);
+  img {
+  height: 350px;
+  margin: auto;
+  }
+  .mid {
+    width: 630px ;
+    
+  }
+  .btn1 {
+    background-color: $color;
+    color: black;
+    margin: auto;
+    padding: 5px 15px;
+  }
+  .btn2 {
+    background-color: #7e7e7e;
+    color: #ffffff;
+    margin: auto;
+    padding: 5px 10px;
+  }
+}
+.rate1 {
+  background-color: rgb(255, 1, 1);
+  color: #ffffff;
+  
+  border-radius: 20px;
+
+}
+  
+//Footer
+.Foot1{
+  background-color: rgba(234, 234, 234, 0.8);
+  p{
+    font-size: 12px;
+  }
+  small{
+    font-size: 12px;
+  }
+}
+
+//Refer
+.refer {
+  button {
+    padding: 30px;
+    background-color: $color;
+    border-radius: 50%;
+   
+  margin-left: 160px;
+  }
+}
